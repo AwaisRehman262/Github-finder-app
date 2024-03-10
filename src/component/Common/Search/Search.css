@@ -1,0 +1,66 @@
+/* Search.css */
+
+.error-message {
+  background-color: rgb(236, 236, 236);
+  column-rule: #333;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+.form-container {
+  width: 100%; /* Make the container span the entire width of the screen */
+  padding: 20px; /* Add some padding to the container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form {
+  width: 100%; /* Make the form span the entire width of the container */
+  margin: 2rem auto; /* Center the form horizontally and add margin */
+}
+
+.form input[type="text"] {
+  width: 100%;
+  padding: 0.6rem 0.4rem; /* Corrected 'pad' to 'padding' */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.form input[type="submit"],
+button {
+  display: block;
+  width: 100%;
+  background-color: #333;
+  color: #eee;
+  padding: 0.8rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+button {
+  background-color: rgb(230, 230, 230);
+  color: #333;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.input-text {
+  width: calc(
+    100% - 20px
+  ); /* Make the input span the entire width of the form, considering padding */
+  padding: 10px; /* Add padding to the input */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  margin-right: 10px; /* Add some space to the right of the input */
+}
+
+.submit-button {
+  width: 100px; /* Set a fixed width for the submit button */
+  padding: 10px; /* Add padding to the button */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.clear-button {
+  padding: 10px; /* Add padding to the clear button */
+}
